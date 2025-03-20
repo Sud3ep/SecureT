@@ -142,7 +142,24 @@ axios.get(url, { params })
   });
 
 ```
+Using blazed.js:
+```js
+const blazed = require('blazed.js');
 
+const url = 'https://securet.onrender.com/create-password';
+const params = new URLSearchParams({
+    length: 16,
+    character_set: 'Composite'
+}).toString();
+
+blazed.get(`${url}?${params}`)
+    .then(response => {
+        console.log(`Generated Password: ${response.data.password}`);
+    })
+    .catch(error => {
+        console.error(`Error: ${error.status ? error.status : error.me>
+    });
+```
 ---
 
 
