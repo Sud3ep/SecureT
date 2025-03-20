@@ -99,7 +99,7 @@ else:
 #
 ### JavaScript
 
-To use SecureT in a JavaScript, you can use fetch API to send a request:
+To use SecureT in a JavaScript, you can use send a request using various HTTP clients:
 
 Using fetch:
 
