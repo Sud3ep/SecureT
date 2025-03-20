@@ -57,14 +57,16 @@ Allowed Values:
 
 Request:
 
-```curl -X 'GET' \
+```bash
+curl -X 'GET' \
   'https://securet.onrender.com/create-password?length=16&character_set=Composite' \
   -H 'accept: application/json'
 ```
 
 Response:
 
-```{
+```js
+{
   "password": "A&8sD!7f@K9$Hq*Y",
   "source": "https://lfdr.de",
   "explanation": "This password is generated using quantum vacuum fluctuations."
@@ -76,7 +78,7 @@ Response:
 
 To use SecureT in a Python script, you can send a `GET` request using the requests library and handle the response as follows:
 
-```
+```python
 import requests
 
 # API endpoint and parameters
@@ -101,7 +103,7 @@ To use SecureT in a JavaScript, you can use fetch API to send a request:
 
 Using fetch:
 
-```
+```js
 const url = 'https://securet.onrender.com/create-password?length=16&character_set=Composite';
 
 fetch(url)
@@ -122,7 +124,7 @@ fetch(url)
 
 Using axios:
 
-```
+```js
 const axios = require('axios');
 
 const url = 'https://securet.onrender.com/create-password';
