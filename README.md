@@ -1,4 +1,4 @@
-SecureT is an API that generates unpredictable passwords using quantum randomness, preventing brute-force attacks. Unlike traditional password generators that use pseudo-random algorithms, the Quantum Password Generator API harnesses real quantum randomness to create unpredictable passwords. It also includes rate-limiting to prevent abuse.
+[SecureT](https://securet.onrender.com) is an API that generates unpredictable passwords using quantum randomness, preventing brute-force attacks. Unlike traditional password generators that use pseudo-random algorithms, the Quantum Password Generator API harnesses real quantum randomness to create unpredictable passwords. It also includes rate-limiting to prevent abuse.
 
 Most password generators rely on:
 
@@ -25,7 +25,7 @@ https://securet.onrender.com/docs
 
 ## Query Parameters
 
-`1. length`
+### length
 
 Type: `Integer (int)`
 
@@ -35,7 +35,7 @@ Allowed Values: `6 to 32`
 
 #
 
-`2. character_set`
+### character_set
 
 Type: `String (str)`
 
